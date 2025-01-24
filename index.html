@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppLab</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./assests/css/home.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <div class="navbar">
+            <!-- AppLab Name -->
+            <div class="logo"><span style="color: orange;">App</span>Lab</div>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <!-- Navbar Links -->
+            <div class="navbar-links" id="navbarLinks">
+                <a href="#">Home</a>
+                <a href="#">Key Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Testimonial</a>
+                <a href="#">FAQ</a>
+                <a href="#" class="btn">Try for Free</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Toggle menu visibility on small screens
+        function toggleMenu() {
+            const navbarLinks = document.getElementById("navbarLinks");
+            navbarLinks.classList.toggle("mobile-menu");
+        }
+    </script>
+
+
+
+
+
+
+    <div class="container-fluid" id="banner-container">
+        <img src="./assests/images/background3.png" alt="Background" class="background-image">
+        <div class="container">
+
+            <div class="row hero-section">
+                <div class="col-md-6 hero-text">
+                    <span class="tagline">#1 Editors choice App of 2020</span>
+                    <h1 class="display-4" id="hero-heading">Best app for your <br>modern lifestyle</h1>
+                    <p>Increase productivity with a simple to-do app. app for <br>managing your personal budgets.</p>
+                    <div class="buttons">
+                        <a href="#" class="btn btn-primary">Try for free</a>
+                        <a href="#" class="btn btn-secondary">Watch demo video</a>
+                    </div>
+                </div>
+                <div class="col-md-6 hero-image">
+                    <img src="./assests/images/img1.png" alt="App demo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="background-shapes">
+            <div class="star" style="top: 10%; left: 15%;"></div>
+            <div class="circle" style="top: 10%; left: 50%;"></div>
+            <div class="star" style="top: 70%; left: 80%;"></div>
+            <!-- <div class="circle" style="top: 40%; left: 20%;"></div> -->
+            <div class="star" style="top: 60%; left: 50%;"></div>
+            <div class="circle" style="top: 80%; left: 10%;"></div>
+            <div class="circle" style="top: 20%; left: 80%;"></div>
+        </div>
+
+
+    </div>
+
+
+    <div class="container" id="trusted">
+        <div class="trusted-by">
+            <h3 class="heading">Trusted by companies like</h3>
+            <div class="logos">
+                <img src="./assests/images/c1.png" alt="Southwest Company">
+                <img src="./assests/images/c2.jpg" alt="Anubis Entertainment">
+                <img src="./assests/images/c3.png" alt="Alonzo Casseta">
+                <img src="./assests/images/c4.png" alt="Premium Express">
+                <img src="./assests/images/c5.png" alt="Maniac">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="heading" style="text-align: center;">Awesome App Features</h2>
+        <div class="row align-items-center">
+            <!-- Left: Image Section -->
+
+            <div class="col-md-6 text-center">
+                <img src="./assests/images/mobile.png" alt="Mobile" class="img-fluid">
+            </div>
+
+            <!-- Right: App Features Content -->
+            <div class="col-md-6">
+
+                <p>Increase productivity with a simple to-do app. App for managing your personal budgets.</p>
+
+                <!-- Feature 1 -->
+                <div class="feature-box d-flex align-items-center my-3">
+                    <div class="feature-icon me-3">
+                        <i class="fas fa-bolt text-primary fs-3"></i> <!-- Font Awesome Icon -->
+                    </div>
+                    <div class="feature-text">
+                        <h3>Fast Performance</h3>
+                        <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-box d-flex align-items-center my-3">
+                    <div class="feature-icon me-3">
+                        <i class="fas fa-drafting-compass text-success fs-3"></i> <!-- Font Awesome Icon -->
+                    </div>
+                    <div class="feature-text">
+                        <h3>Prototyping</h3>
+                        <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                    </div>
+                </div>
+
+                <div class="feature-box d-flex align-items-center my-3">
+                    <div class="feature-icon me-3">
+                        <i class="fas fa-vector-square text-warning fs-3"></i> <!-- Font Awesome Icon -->
+                    </div>
+                    <div class="feature-text">
+                        <h3>Vector Editing</h3>
+                        <p>Easily create and modify vector graphics with advanced tools and features.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid custom-bg">
+
+        <div class="container">
+            <div class="custom-row">
+                <div class="custom-col-left">
+                    <h1> Smart Jackpots that you may love this Anytime & Anywhere</h1>
+                </div>
+                <div class="custom-col-line">
+                    <div class="custom-line" id="line"></div>
+                </div>
+                <div class="custom-col-right mt-5">
+                    <p>The rise of mobile devices transforms the way we consume information entirely and the world's
+                        most relevant channels such as Facebook.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="custom-feature-container">
+                <div class="custom-feature">
+                    <i class="fas fa-money-bill-wave custom-text-success"></i>
+                    <h3 class="custom-text-green">Automatic Payouts</h3>
+                    <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                </div>
+                <div class="custom-feature">
+                    <i class="fas fa-network-wired custom-text-primary"></i>
+                    <h3 class="custom-text-blue">Network Effect</h3>
+                    <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                </div>
+                <div class="custom-feature">
+                    <i class="fas fa-award custom-text-warning"></i>
+                    <h3 class="custom-text-yellow">Bigger Rewards Method</h3>
+                    <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <!-- <h2 class="heading" style="text-align: center;">Awesome App Features</h2> -->
+        <div class="row align-items-center">
+            <!-- Left: Image Section -->
+
+            <div class="col-md-6 text-center">
+                <img src="./assests/images/design.png" alt="Mobile" style="height: 500px;" class="img-fluid">
+            </div>
+
+            <!-- Right: App Features Content -->
+            <div class="col-md-6">
+                <h2>Designed & built by the latest code integration
+                </h2>
+                <p>The rise of mobile devices transforms the way we consume information entirely and the world's most
+                    elevant channels such as Facebook.</p>
+
+                <a class="btn" href="#" id="learn">Learn More</a>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid custom-bg">
+        <div class="container ">
+            <section class="why-choose-us">
+                <h2>Why you should choose our app</h2>
+                <p>The rise of mobile devices transforms the way we consume information entirely and the world's most
+                    relevant channels such as Facebook.</p>
+
+                <div class="feature-grid">
+                    <div class="feature">
+                        <div class="feature-icon text-center">
+                            <i class="fas fa-laptop-code text-primary"></i>
+                        </div>
+                        <h3>App Development</h3>
+                        <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                    </div>
+
+                    <div class="feature">
+                        <div class="feature-icon text-center">
+                            <i class="fas fa-trophy text-warning"></i>
+                        </div>
+                        <h3>10 Times Award</h3>
+                        <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                    </div>
+
+                    <div class="feature">
+                        <div class="feature-icon text-center">
+                            <i class="fas fa-cloud text-success"></i>
+                        </div>
+                        <h3>Cloud Storage</h3>
+                        <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                    </div>
+
+                    <div class="feature">
+                        <div class="feature-icon text-center">
+                            <i class="fas fa-cogs text-info"></i>
+                        </div>
+                        <h3>Customization</h3>
+                        <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                    </div>
+
+                    <div class="feature">
+                        <div class="feature-icon text-center">
+                            <i class="fas fa-sitemap text-secondary"></i>
+                        </div>
+                        <h3>UX Planning</h3>
+                        <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                    </div>
+
+                    <div class="feature">
+                        <div class="feature-icon text-center">
+                            <i class="fas fa-headset text-danger"></i>
+                        </div>
+                        <h3>Customer Support</h3>
+                        <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <section class="app-features-section">
+        <div class="container">
+            <h2 style="text-align: center;">Ultimate features that we built</h2>
+            <p style="text-align: center;">The rise of mobile devices transforms the way we consume information
+                entirely.</p>
+            <div class="app-features-wrapper">
+                <div class="app-features-content">
+
+
+                    <div class="app-features-grid">
+                        <div class="app-feature-item">
+                            <div class="app-feature-icon">
+                                <i class="fas fa-laptop-code text-primary"></i>
+                            </div>
+                            <h3>App Development</h3>
+                            <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.
+                            </p>
+                        </div>
+
+                        <div class="app-feature-item">
+                            <div class="app-feature-icon">
+                                <i class="fas fa-sitemap text-secondary"></i>
+                            </div>
+                            <h3>UX Planning</h3>
+                            <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.
+                            </p>
+                        </div>
+
+                        <div class="app-feature-item">
+                            <div class="app-feature-icon">
+                                <i class="fas fa-cloud text-success"></i>
+                            </div>
+                            <h3>Cloud Storage</h3>
+                            <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.
+                            </p>
+                        </div>
+
+                        <div class="app-feature-item">
+                            <div class="app-feature-icon" style="display: flex; justify-content:center !important;">
+                                <i class="fas fa-headset text-danger"></i>
+                            </div>
+                            <h3>Customer Support</h3>
+                            <p>Get your blood tests delivered at home. Collect a sample from the news. Your blood tests.
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="app-view-all-button">See all</a>
+                </div>
+
+                <div class="app-features-image">
+                    <img src="./assests/images/app_feature.png" alt="Feature Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="pricing-section">
+        <h2>Get awesome features, without extra charges</h2>
+        <p>The rise of mobile devices transforms the way we consume information entirely.</p>
+
+        <div class="plan-container">
+            <div class="plan monthly-plan active">
+                <h3>$0<span>/month</span></h3>
+                <h4>Business Class</h4>
+                <p>For small teams or office</p>
+                <ul>
+                    <li>Drag & Drop Builder</li>
+                    <li>1000's of Templates</li>
+                    <li>Blog Support Tools</li>
+                    <li>eCommerce Store</li>
+                </ul>
+                <button class="btn btn-primary">Start free trial</button>
+            </div>
+
+            <div class="plan monthly-plan active">
+                <h3>$99<span>/month</span></h3>
+                <h4>Pro Master</h4>
+                <p>For small teams or office</p>
+                <ul>
+                    <li>Drag & Drop Builder</li>
+                    <li>1000's of Templates</li>
+                    <li>Blog Support Tools</li>
+                    <li>eCommerce Store</li>
+                </ul>
+                <button class="btn btn-primary">Start free trial</button>
+            </div>
+
+            <div class="plan annual-plan">
+                <h3>$99<span>/month</span></h3>
+                <h4>Pro Master</h4>
+                <p>For best opportunities</p>
+                <ul>
+                    <li>Drag & Drop Builder</li>
+                    <li>1000's of Templates</li>
+                    <li>Blog Support Tools</li>
+                    <li>eCommerce Store</li>
+                </ul>
+                <button class="btn btn-primary">Subscribe Now</button>
+                <p>Or Start 14 days trial</p>
+            </div>
+
+            <div class="plan annual-plan">
+                <h3>$99<span>/month</span></h3>
+                <h4>Pro Master</h4>
+                <p>For best opportunities</p>
+                <ul>
+                    <li>Drag & Drop Builder</li>
+                    <li>1000's of Templates</li>
+                    <li>Blog Support Tools</li>
+                    <li>eCommerce Store</li>
+                </ul>
+                <button class="btn btn-primary">Subscribe Now</button>
+                <p>Or Start 14 days trial</p>
+            </div>
+        </div>
+
+        <div class="plan-switcher">
+            <button class="plan-btn monthly-btn active">Monthly</button>
+            <button class="plan-btn annual-btn">Annually</button>
+        </div>
+    </section>
+
+    <script>
+        const monthlyBtn = document.querySelector('.monthly-btn');
+        const annualBtn = document.querySelector('.annual-btn');
+        const monthlyPlans = document.querySelectorAll('.monthly-plan');
+        const annualPlans = document.querySelectorAll('.annual-plan');
+
+        monthlyBtn.addEventListener('click', () => {
+            monthlyBtn.classList.add('active');
+            annualBtn.classList.remove('active');
+
+            // Show only monthly plans
+            monthlyPlans.forEach(plan => plan.style.display = 'block');
+            annualPlans.forEach(plan => plan.style.display = 'none');
+        });
+
+        annualBtn.addEventListener('click', () => {
+            monthlyBtn.classList.remove('active');
+            annualBtn.classList.add('active');
+
+            // Show only annual plans
+            monthlyPlans.forEach(plan => plan.style.display = 'none');
+            annualPlans.forEach(plan => plan.style.display = 'block');
+        });
+    </script>
+
+
+    <div class="testimonials-section">
+        <h2>Meet Client Satisfaction by using product</h2>
+        <p>The rise of mobile devices transforms the way we consume, elevanta channels such as Facebook.</p>
+
+        <div class="testimonial-slider">
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item active">
+                        <div class="testimonial-item">
+                            <div class="testimonial-image-wrapper">
+                                <div class="testimonial-circle"></div>
+                                <img src="./assests/images/zoltan nemeth.jpg" alt="Profile Picture"
+                                    class="testimonial-image">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">
+                                    "User Friendly & Customizable"
+                                      Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal has evloved from generation x is on the runway heading towards a streamlined cloud solution. User generated content in real time will have multiple touchpoints for offshoring.
+                                </p>
+                                <h4 class="testimonial-author">Zoltan Nemeth</h4>
+                                <p class="testimonial-role">CEO of Pixler Lab</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <!-- Carousel controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <div class="faq-section custom-bg">
+        <h2>Frequently Asked Questions</h2>
+        <p>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+
+        <div class="accordion" id="faqAccordion">
+            <!-- Question 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How to contact with riders emergency?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Leverage agile frameworks to provide a robust synapsis for highlevel overviews.
+                         Iterative approaches to corporate strategy faster collabrative thinking to the overall value propostion.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        App Installation failed, how to update system information?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        After shipping, you'll receive a tracking number to follow your order's progress.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Website response taking time, how to improve?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we ship worldwide. Additional shipping fees may apply based on location.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+    <div class="download-section">
+        <h1 class="heading">Download our App now!</h1>
+        <p class="description">
+            The rise of mobile devices transforms the way we consume information entirely
+            and the world's most relevant channels such as Facebook.
+        </p>
+        <div class="download-buttons">
+            <a href="#" class="google-play">
+                <i class="fab fa-google-play"></i> Get it on Google Play
+            </a>
+            <a href="#" class="app-store">
+                <i class="fab fa-apple"></i> Download on the App Store
+            </a>
+        </div>
+        <div class="illustration">
+            <!-- Add your SVG/illustration here -->
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-logo">AppLab</h2>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Key Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <p class="copyright">
+            Copyright © Your Name 2025. All rights reserved.
+        </p>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
